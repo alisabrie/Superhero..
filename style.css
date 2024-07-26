@@ -1,0 +1,199 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 90%;
+    height: 450px;
+    background: linear-gradient(to left, skyblue, purple);
+    border: 5px solid white;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 50px #0ff;
+}
+.card{
+    width: 23%;
+    height: 80%;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url(immagini/spiderman.jpg);
+    background-position: 50%;
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    width: 50%;
+    transition: 0.5s;
+    background-size: 70% auto;
+    background-position: -45%;
+}
+.card:not(:hover){
+    width: 23%;
+    transition: 0.5s;
+}
+.card .text1 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    text-shadow: 0 0 white 0 0 white;
+    transition: opacity 0.1s; 
+}
+
+.card:hover .text1 {
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.text1 {
+    top: 30%;
+    left: 22%;
+}
+.card2{
+    width: 23%;
+    height: 80%;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url(immagini/superman.jpg);
+    background-position: 10% bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.card2:hover{
+    width: 50%;
+    transition: 0.5s;
+    background-size: 40% auto;
+    background-position: 10%;
+}
+.card2:not(:hover){
+    width: 23%;
+    transition: 0.5s;
+}
+.card2 .text2 {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    text-shadow: 0 0 white 0 0 white;
+    transition: opacity 0.1s; 
+}
+
+.card2:hover .text2 {
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.text2 {
+    top: 35%;
+    left: 41%;
+}
+.card3{
+    width: 23%;
+    height: 80%;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url(immagini/iron\ man.jpg);
+    background-position: 10% bottom ;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+.card3:hover{
+    width: 50%;
+    transition: 0.5s;
+    background-size: 40% auto;
+    background-position: 20% left;
+}
+.card3:not(:hover){
+    width: 23%;
+    transition: 0.5s;
+}
+.card3 .text3 {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    text-shadow: 0 0 white 0 0 white;
+    transition: opacity 0.1s; 
+}
+
+.card3:hover .text3 {
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.text3 {
+    top: 35%;
+    left: 59%;
+}
+.card4{
+    width: 23%;
+    height: 80%;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url(immagini/capten\ america.jpg);
+    background-position: 40% bottom;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+}
+.card4:hover{
+    width: 50%;
+    transition: 0.5s;
+    background-size: 60% auto;
+    background-position: -10% bottom;
+}
+.card4:not(:hover){
+    width: 23%;
+    transition: 0.5s;
+}
+.card4 .text4 {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    text-shadow: 0 0 white 0 0 white;
+    transition: opacity 0.1s; 
+}
+
+.card4:hover .text4 {
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.text4 {
+    top: 35%;
+    left: 76%;
+}
+.card h2{
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 45px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
+.card2 h2{
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
+.card3 h2{
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 60px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
+.card4 h2{
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 25px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
